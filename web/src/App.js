@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
+import { render } from 'react-dom';
+import { router } from 'react-router';
+import createBrowserHistory from 'history/lib/createBrowserHistory';
 import logo from './logo.svg';
 import './App.css';
+
+const history = createBrowserHistory(); 
 
 class App extends Component {
   render() {
